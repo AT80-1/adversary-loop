@@ -64,7 +64,7 @@ It stops for one of four reasons, all shown in the report: **clean** (nothing se
 
 - **Node.js 18 or newer** installed (check with `node --version`). Claude Code and Cursor users almost always have it already.
 - **Claude Code** or **Cursor**, already signed in. No separate API keys are needed.
-- **Access to this repo.** It is private, so your machine must be able to read it. The easiest way is [GitHub CLI](https://cli.github.com/): run `gh auth login` once.
+- **Git** installed, so Claude Code can fetch the plugin from GitHub. No GitHub account or login is needed.
 - A **project folder** to work in, ideally a git repository.
 
 ### Claude Code
@@ -248,7 +248,7 @@ Severity levels: **Critical** (security hole, data loss, wrong money), **High** 
 | Problem | Fix |
 |---|---|
 | `/adversary:` commands don't appear | Run `/reload-plugins` or restart Claude Code. Check the plugin is listed under `/plugin`. |
-| `Repository not found` when adding the marketplace | The repo is private. Run `gh auth login` on that machine, or ask for access to `AT80-1/adversary-loop`. |
+| `Repository not found` or a clone error when adding the marketplace | Check `git --version` works, that you're online, and that the name is exactly `AT80-1/adversary-loop`. |
 | `node` is not recognized | Install Node.js 18 or newer and restart your terminal and Claude Code. |
 | "A run is already in progress" | Run `/adversary:abort`, then start again. (Runs older than two hours are treated as stale.) |
 | "No lint/test command detected" warning | Add a `test` script to `package.json`, or pass `--test-cmd "your command"`. |

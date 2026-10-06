@@ -5,6 +5,7 @@ Bump the version on every change you want installed users to receive: Claude Cod
 
 ## Unreleased
 - Docs: README rewritten for first-time users (install, first run, spec writing, reading the report, troubleshooting, limits).
+- Repo made public; README no longer mentions private-repo access.
 
 ## 0.1.0 (prototype)
 - `/adversary:loop`, `/adversary:status`, `/adversary:abort`.
