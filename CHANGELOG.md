@@ -3,6 +3,9 @@
 Versions follow `adversary/.claude-plugin/plugin.json` (keep `.cursor-plugin/plugin.json` in step).
 Bump the version on every change you want installed users to receive: Claude Code only updates a plugin when its version changes.
 
+## Unreleased
+- Docs: README rewritten for first-time users (install, first run, spec writing, reading the report, troubleshooting, limits).
+
 ## 0.1.0 (prototype)
 - `/adversary:loop`, `/adversary:status`, `/adversary:abort`.
 - Builder (main session) + read-only `adversary-reviewer` and `adversary-triage` subagents.
