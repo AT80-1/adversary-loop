@@ -1,0 +1,6 @@
+.adversary/
+.adversary-incoming-spec.md
+node_modules/
+.cursor/
+.claude/
+.sessions/

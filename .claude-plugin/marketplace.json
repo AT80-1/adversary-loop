@@ -1,0 +1,12 @@
+{
+  "name": "outback-adversary",
+  "owner": { "name": "Outback CX" },
+  "description": "Outback CX tools for AI-assisted coding.",
+  "plugins": [
+    {
+      "name": "adversary",
+      "source": "./adversary",
+      "description": "Adversarial build/review loop driven by a spec sheet."
+    }
+  ]
+}

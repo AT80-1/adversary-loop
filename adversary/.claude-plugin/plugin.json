@@ -1,0 +1,7 @@
+{
+  "name": "adversary",
+  "version": "0.1.0",
+  "description": "Spec in, code out, adversarial review in a bounded loop. Builder + independent read-only Reviewer + Triage judge, with deterministic halt gates.",
+  "author": { "name": "Outback CX" },
+  "keywords": ["code-review", "adversarial", "agents", "loop", "spec"]
+}
